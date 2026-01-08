@@ -1,7 +1,7 @@
 data_environment_obscurance = [
     {
-        title: "Lightly obscured",
-        icon: "bleeding-eye",
+        title: "Lightly Obscured",
+        icon: "fog",
         subtitle: "Disadvantage on Perception",
         description: "Dim light, patchy fog, moderate foliage",
         reference: "PHB, pg. 183.",
@@ -10,8 +10,8 @@ data_environment_obscurance = [
         ]
     },
     {
-        title: "Heavily obscured",
-        icon: "lightning-tear",
+        title: "Heavily Obscured",
+        icon: "hidden",
         subtitle: "Effectively blind",
         description: "Darkness, opaque fog, dense foliage",
         reference: "PHB, pg. 183.",
@@ -23,8 +23,8 @@ data_environment_obscurance = [
 
 data_environment_light = [
     {
-        title: "Bright light",
-        icon: "star-pupil",
+        title: "Bright Light",
+        icon: "sunbeams",
         subtitle: "Normal vision",
         description: "Bright light lets most creatures see normally",
         reference: "PHB, pg. 183.",
@@ -33,8 +33,8 @@ data_environment_light = [
         ]
     },
     {
-        title: "Dim light",
-        icon: "semi-closed-eye",
+        title: "Dim Light",
+        icon: "wolf-howl",
         subtitle: "Lightly obscured",
         description: "Dim light, also called shadows",
         reference: "PHB, pg. 183.",
@@ -60,7 +60,7 @@ data_environment_light = [
 data_environment_vision = [
     {
         title: "Blindsight",
-        icon: "one-eyed",
+        icon: "blindfold",
         subtitle: "Perceive without sight",
         description: "Perceive your surroundings without relying on sight, within a certain radius",
         reference: "PHB, pg. 183.",
@@ -70,7 +70,7 @@ data_environment_vision = [
     },
     {
         title: "Darkvision",
-        icon: "semi-closed-eye",
+        icon: "night-vision",
         subtitle: "Limited vision in darkness",
         description: "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius",
         reference: "PHB, pgs. 183-184.",
@@ -82,7 +82,7 @@ data_environment_vision = [
     },
     {
         title: "Truesight",
-        icon: "eye-shield",
+        icon: "third-eye",
         subtitle: "See in darkness",
         description: "A creature with truesight can see everything in its true form, independent of the environment",
         reference: "PHB, pg. 184.",
@@ -95,9 +95,9 @@ data_environment_vision = [
 
 data_environment_cover = [
     {
-        title: "Half cover",
-        icon: "broken-shield",
-        subtitle: "Low wall, furniture",
+        title: "Half Cover",
+        icon: "brick-pile",
+        subtitle: "Low wall, furniture, creatures",
         description: "A target has half cover if an obstacle blocks at least half of its body",
         reference: "PHB, pg. 196.",
         bullets: [
@@ -107,8 +107,8 @@ data_environment_cover = [
         ]
     },
     {
-        title: "Three-quarters cover",
-        icon: "cracked-shield",
+        title: "Three-quarters Cover",
+        icon: "broken-wall",
         subtitle: "Portcullis, arrow slit",
         description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
         reference: "PHB, pg. 196.",
@@ -119,8 +119,8 @@ data_environment_cover = [
         ]
     },
     {
-        title: "Full cover",
-        icon: "shield",
+        title: "Full Cover",
+        icon: "brick-wall",
         subtitle: "Completely concealed",
         description: "A target has total cover if it is completely concealed by an obstacle",
         reference: "PHB, pg. 196.",
